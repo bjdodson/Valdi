@@ -54,6 +54,9 @@ const DEFAULT_VALDI_IMPORT = `
 git_repository(
     name = "valdi",
     branch = "main",
+    patch_cmds = [
+        "git lfs pull",
+    ],
     remote = "git@github.com:Snapchat/Valdi.git",
 )`;
 
