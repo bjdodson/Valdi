@@ -279,7 +279,7 @@ def setup_dependencies(workspace_root = None):
         strip_prefix = "harfbuzz-12.2.0",
         build_file = "@valdi//third-party/harfbuzz:harfbuzz.BUILD",
         integrity = "sha256-7LYDqkJqiyRmVxhme9pkqEwVBNt0VO5Mrb02Lupk5UU=",
-        url = "https://github.com/harfbuzz/harfbuzz/releases/download/12.2.0/harfbuzz-12.2.0.tar.xz",
+        urls = ["https://github.com/harfbuzz/harfbuzz/releases/download/12.2.0/harfbuzz-12.2.0.tar.xz"],
     )
 
     # From https://github.com/protocolbuffers/protobuf/releases/tag/v3.20.0

@@ -28,7 +28,6 @@ COMPILER_FLAGS = [
     "-Wno-bitwise-instead-of-logical",
     "-Wno-deprecated-this-capture",
     "-Wno-ambiguous-reversed-operator",
-    broke bloke
 ]
 
 LOCAL_DEFINES = [
