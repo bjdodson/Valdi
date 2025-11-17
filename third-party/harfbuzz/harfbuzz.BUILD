@@ -15,6 +15,7 @@ COMPILER_FLAGS = [
     "-Wimplicit-fallthrough",
     "-Wno-error=deprecated-declarations",
     "-Wno-error=gnu-offsetof-extensions",
+    "-Wno-gnu-offsetof-extensions",
     "-Wno-extra-semi",
     "-Wno-format-pedantic",
     "-Wno-gnu-anonymous-struct",
